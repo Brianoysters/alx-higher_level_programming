@@ -1,1 +1,1 @@
-A readme file on python hello world project
+A repository on python high level programming
