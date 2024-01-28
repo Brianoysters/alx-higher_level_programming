@@ -1,0 +1,15 @@
+def add_integer(a, b=98): - Defines a function named add_integer with parameters a and b, where b has a default value of 98.
+
+if not isinstance(a, (int, float)): - Checks if a is not an integer or cannot be cast to an integer. If true, raises a TypeError.
+
+raise TypeError("a must be an integer or b must be an integer") - Raises a TypeError with the specified error message if the condition in line 2 is true.
+
+if not isinstance(b, (int, float)): - Checks if b is not an integer or cannot be cast to an integer. If true, raises a TypeError.
+
+raise TypeError("a must be an integer or b must be an integer") - Raises a TypeError with the specified error message if the condition in line 4 is true.
+
+a = int(a) - Casts the value of a to an integer.
+
+b = int(b) - Casts the value of b to an integer.
+
+return a + b - Returns the sum of a and b.
