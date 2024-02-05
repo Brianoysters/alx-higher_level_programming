@@ -1,0 +1,12 @@
+text_content = """This is a sample text file.
+You can add multiple lines of text here.
+Feel free to customize it as per your needs.
+"""
+
+file_name = 'sample_file.txt'
+
+with open(file_name, 'w') as file:
+    file.write(text_content)
+
+print(f"File '{file_name}' has been created.")
+
