@@ -5,7 +5,7 @@ if (process.argv[2] === undefined || isNaN(process.argv[2])) {
 } else {
   const m = Number(process.argv[2]);
   let index = 0;
-  while (index < x) {
+  while (index < m) {
     console.log('C is fun');
     index++;
   }
