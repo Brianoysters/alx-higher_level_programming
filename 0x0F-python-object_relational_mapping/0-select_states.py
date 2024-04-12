@@ -9,7 +9,7 @@ if __name__ == "__main__":
                          passwd=sys.argv[2], db=sys.argv[3], port=3306)
     _input = db.cursor()
     _input.execute("SELECT * FROM states")
-    rows = cur.fetchall()
+    rows = _input.fetchall()
     for row in rows:
         print(row)
     _input.close()
