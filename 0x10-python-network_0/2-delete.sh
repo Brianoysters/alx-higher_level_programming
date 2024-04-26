@@ -1,4 +1,4 @@
 #!/bin/bash
 #Bash script sends a DELETE request to specified URL and display the response.
-curl -sX DELETE "$1"
+curl -X DELETE -s "$1"
 
